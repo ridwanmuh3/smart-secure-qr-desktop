@@ -4,6 +4,11 @@ A research-driven desktop application for generating cryptographically secure, t
 
 The system employs a dual-signature architecture (inner + outer ECDSA P-256 signatures), SHA-256 document hashing, and Drand-based time-lock encryption to ensure document integrity, temporal validity enforcement, and anti-cloning protection. Unlike traditional QR implementations that embed raw data directly, this system generates dynamic QR codes containing only a secure reference identifier, while the full cryptographic payload is stored server-side — mitigating data exfiltration and QR duplication attacks.
 
+## Research Team (FAST Unsil)
+- Ir. Randi Rizal S.T
+- Fauzan Alvin Mubarok
+- Ridwan Muhammad Raihan
+
 ## Tech Stack
 
 ### Backend (Desktop Core)
