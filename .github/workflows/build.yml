@@ -44,3 +44,9 @@ jobs:
       - name: Build App (Windows/macOS)
         if: runner.os != 'Linux'
         run: wails build
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: SmartQR-${{ matrix.os }}
+          path: build/bin/*
