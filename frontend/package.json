@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && NODE_OPTIONS=--max-old-space-size=8192 vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@iconify/vue": "^5.0.0",
+    "html5-qrcode": "^2.3.8",
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-bundle-obfuscator": "^1.10.0",
+    "vue-tsc": "^3.2.5"
+  }
+}
